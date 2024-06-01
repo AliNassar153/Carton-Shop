@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root{
+   --blue:#3498db;
+   --red:#e74c3c;
+   --orange:#f39c12;
+   --black:#333;
+   --white:#fff;
+   --light-bg:#eee;
+   --box-shadow:0 5px 10px rgba(0,0,0,.1);
+   --border:2px solid var(--black);
+}
+input{
+    float: left;
+}
+.main{
+    width: 50%;
+    box-shadow: 1px 1px 10px silver;
+    margin-top: 45px;
+    padding: 10px;
+}
+h2{
+    font-family: 'Cairo', sans-serif;
+    color: red;
+}
+input{
+    margin-bottom: 10px;
+    width: 60%;
+    padding: 5px;
+    font-family: 'Cairo', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button{
+    border:none;
+    padding: 10px;
+    width: 40%;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #1AC15C;
+    cursor: pointer;
+    font-family: 'Cairo', sans-serif;
+    margin-bottom: 15px;
+}
+label{
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #1F87CF;
+    font-family: 'Cairo', sans-serif;
+    color:white;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color:tomato;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+}
+form{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
